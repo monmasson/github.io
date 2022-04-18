@@ -70,6 +70,26 @@ Second page display:
 
 8.     Event listener to move to next page once the answer has been clicked.
 
+Following pages display
+
+1.     Layout will be the same.
+
+2.     Score board need to change based on the response.
+
+3.     Questions and answer block will change.
+
+4.     Will toggle between the player’s turn based on who started first.
+
+Last Page
+
+1.     Display scoreboard: Player 1 and Player 2
+
+2.     Display Player----- is the winner! Player ------ keep brushing your skills.
+
+3.     Option to : End game    OR  Reload
+
+4.     Continue with the color theme and logo.
+
                                          
 
                                          

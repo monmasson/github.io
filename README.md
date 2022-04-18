@@ -4,15 +4,15 @@ v Building a Java script quiz game with HTML, CSS, JavaScript (this game will be
 
 v Hosted on netlify / vercel / githubpage.
 
-v Technologies used
+v Technologies used:
 
-·      HTML
+HTML
 
-·      JS
+JS
 
-·      CSS
+·CSS
 
-·      Resources: Eloquent Javascript, Khan Academy, Codesmith, pythontutor.com,developer.mozilla.org
+Resources to be used : Eloquent Javascript, Khan Academy, Codesmith, pythontutor.com,developer.mozilla.org
 
  
 
@@ -46,13 +46,29 @@ Start of the game
 
 4.     Display: Player 1 name box and Player 2 name box
 
-5.     Display : choose your level ===>>>> drop down menu when hoovered to choose from :  Beginner , Intermediate, Advanced.
+5.     Display : choose your level ===>>>> drop down menu when hoovered to choose from :  Beginner , Intermediate, Advanced. At present will only attempt 10 questions on EASY level
 
 6.     Display: Start Game BUTTON
 
 7.     Need to style all the buttons, have hoover effect on buttons, add drop down option on ‘level’ button, create a form with HTML for player name info.
 
-Second page display 
+Second page display:
+
+1.     On top at headline display Player 1 score on left, question number in the middle (eg: 1/10) and Player 2 score on the right
+
+2.     Below display who’s turn is it. : Player 1 your turn OR Player 2 your turn
+
+3.     Question block
+
+4.     Answer options (right now will have two responses)
+
+5.     JS logo at bottom on right corner
+
+6.     Style each block
+
+7.     Click/Hoover option on answer block to submit
+
+8.     Event listener to move to next page once the answer has been clicked.
 
                                          
 

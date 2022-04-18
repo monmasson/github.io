@@ -4,11 +4,23 @@ v Building a Java script quiz game with HTML, CSS, JavaScript (this game will be
 
 v Hosted on netlify / vercel / githubpage.
 
+
+v Game Objective: Test you JS skills based on a quiz style game. The goal is to give the most correct answers by choosing from the given two options.
+
+v Players Required- 2 players
+
+v Scoring: Each correct answer receives a 2-point score.
+
+v Win state: Maximum score 20. Player with the maximum score out of 20 wins!
+
+v Loose state: Player with the lowest score out of 20 loses.
+
+
 v Technologies used:
 
-HTML
+.HTML
 
-JS
+.JS
 
 ·CSS
 

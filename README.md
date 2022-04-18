@@ -60,7 +60,7 @@ Start of the game
 
 5.     Display : choose your level ===>>>> drop down menu when hoovered to choose from :  Beginner , Intermediate, Advanced. At present will only attempt 10 questions on EASY level
 
-6.     Display: Start Game BUTTON
+6.     Display: Start Game BUTTON and button for Game rules/scoring instructions (pop up)
 
 7.     Need to style all the buttons, have hoover effect on buttons, add drop down option on ‘level’ button, create a form with HTML for player name info.
 
@@ -108,7 +108,25 @@ Last Page
 
  
 
-Broke down the coding requirements such as class, buttons, ids, several functions, event listeners (where and when to use), Math functions,                           
+Broke down the coding requirements such as class, buttons, ids, several functions, event listeners (where and when to use), Math functions,   
+Possible CLASSES required :   1. Start game.
+                              2. Game rules (need to make it pop up)
+                              3. questions
+                              4. answers
+                              5. selector for difficulty level (first will only have Easy as working . Future goal to add to intermediate and advanced )
+                              6. scoreboard
+                              7. Player1
+                              8.Player 2
+                              
+                              
+ Possible BUTTONS required :   1. Start button
+                               2. anwer choice buttons with event listener to move to next page on "click"
+                               3. Restart button
+                               
+Possible FUNCTIONS required within the CLASS
+                                1. Function- select answers (need to attach true/false method to it AND math function to change the scoreboard)???? NEED TO FIGURE OUT?
+                                2. Function - check answer  (need to have if METHOD to add scores to the scoreboard to the player class .
+                                3.
 
  
 

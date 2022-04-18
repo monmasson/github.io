@@ -126,7 +126,8 @@ Possible CLASSES required :   1. Start game.
 Possible FUNCTIONS required within the CLASS
                                 1. Function- select answers (need to attach true/false method to it AND math function to change the scoreboard)???? NEED TO FIGURE OUT?
                                 2. Function - check answer  (need to have if METHOD to add scores to the scoreboard to the player class .
-                                3.
+                                3. Function - reset game
+                                4. Function - Display ( need information of the two players to add their names, 
 
  
 

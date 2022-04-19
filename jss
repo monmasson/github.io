@@ -1,12 +1,19 @@
-const quizContainer = document.getElementById('quiz');
+
 const difficultyLevel = document.getElementById("DIFFICULTY LEVEL");
 const resultsContainer = document.getElementById("results");
 const startButton = document.getElementById("startGame");
 const restartButton = document.getElementById("restartGame");
 const trueBtn = document.getElementById("True");
 const falseBtn = document.getElementById("False");
+const opt1 =document.getElementsById('opt1')
+const opt2 =document.getElementsById('opt2')
 const player1Score = document.getElementById("player1-score");
 const player2Score = document.getElementById("player2-score");
+const ul= document.getElementById('ul');
+const nextButton =document.getElementById('buttonNext')
+const questionBox = document.getElementsById("questionBox")
+const opt1 =document.getElementsById('opt1')
+const opt2 =document.getElementsById('opt2')
 
 
 function questionBlock(){}

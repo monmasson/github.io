@@ -3,6 +3,10 @@ const difficultyLevel = document.getElementById("DIFFICULTY LEVEL");
 const resultsContainer = document.getElementById("results");
 const startButton = document.getElementById("startGame");
 const restartButton = document.getElementById("restartGame");
+const trueBtn = document.getElementById("True");
+const falseBtn = document.getElementById("False");
+const player1Score = document.getElementById("player1-score");
+const player2Score = document.getElementById("player2-score");
 
 
 function questionBlock(){}
@@ -11,7 +15,8 @@ function showResults(){}
 function player1Id(){}
 function player2Id(){}
 
-
+let currentQuestion = 0;
+let score = 0;
 const javaQuestions = [
     {
         question1: "need question" ,
@@ -33,3 +38,24 @@ correctAnswer: "need input",
 
     
 ]
+restartButton.addEventListener("click", restart);
+startButton.addEventListener("click", startGame);
+
+calculateCorrectAnswers() {
+    let count = 0;
+    this.questions.forEach(el => {
+      if (el.isCorrect) {
+        count++;
+      }
+    });
+    return count;
+  }
+
+  var score = function(){ 
+	if(input == answer){ 
+		correct = correct+1;
+	
+	}else{
+		incorrect = incorrect+1;
+
+	}

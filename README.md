@@ -5,7 +5,7 @@ v Building a Java script quiz game with HTML, CSS, JavaScript (this game will be
 v Hosted on netlify / vercel / githubpage.
 
 
-v Game Objective: Test you JS skills based on a quiz style game. The goal is to choose between the two options (true/false) correct answers by choosing from the given two options.
+v Game Objective: Test you JS skills based on a quiz style game. The goal is to choose between the two options (true/false) correct answers by choosing from the given two options. NEED TO DECIDE IF GOING WITH TRUE/FALSE OR TWO OPTIONS. MAYBE MIX.
 
 v Players Required- 2 players
 

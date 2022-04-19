@@ -5,7 +5,7 @@ v Building a Java script quiz game with HTML, CSS, JavaScript (this game will be
 v Hosted on netlify / vercel / githubpage.
 
 
-v Game Objective: Test you JS skills based on a quiz style game. The goal is to give the most correct answers by choosing from the given two options.
+v Game Objective: Test you JS skills based on a quiz style game. The goal is to choose between the two options (true/false) correct answers by choosing from the given two options.
 
 v Players Required- 2 players
 
@@ -112,7 +112,7 @@ Broke down the coding requirements such as class, buttons, ids, several function
 Possible CLASSES required :   1. Start game.
                               2. Game rules (need to make it pop up)
                               3. questions
-                              4. answers
+                              4. answers (true/false)
                               5. selector for difficulty level (first will only have Easy as working . Future goal to add to intermediate and advanced )
                               6. scoreboard
                               7. Player1
@@ -122,6 +122,7 @@ Possible CLASSES required :   1. Start game.
  Possible BUTTONS required :   1. Start button
                                2. anwer choice buttons with event listener to move to next page on "click"
                                3. Restart button
+                               
                                
 Possible FUNCTIONS required within the CLASS
                                 1. Function- select answers (need to attach true/false method to it AND math function to change the scoreboard)???? NEED TO FIGURE OUT?

@@ -13,6 +13,23 @@
         <h3> How well do you know your Java Script? </h3>
         <p> Fill out your player info and set the difficulty level. See if you can get the most correct answers out of 10 questions worth 20 points!</p>
 <hr> <!--block-level element transferring all the elements after it to another line. The external look of the horizontal line defined by the tag depends on the type of the browser. More often it is displayed with a border, which creates 3D effect.          -->
+<div class="question" id="questionBox"></div>
+<div class="options">
+<ul id="ul">
+<li id="option1" onclick="button(this)"></li>
+<li id="option2" onclick="button(this)"></li>
+</ul>
+</div>
+<div class= "score">
+    <div class="next">
+        <button id="bttounNext" type="button"onclick="next()"> Next</button>
+ </div>
+<div class = "score-board"> Score</div><span id="scoreBoard">0</span></div>
+
+
+
+
+
 <div id="DIFFICULTY LEVEL">
     <h4> Choose your level</h4>
     <a>BEGINNER</a>

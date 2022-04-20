@@ -13,26 +13,25 @@
         <h3> How well do you know your Java Script? </h3>
         <p> Fill out your player info and set the difficulty level. See if you can get the most correct answers out of 10 questions worth 20 points!</p>
 <hr> <!--block-level element transferring all the elements after it to another line. The external look of the horizontal line defined by the tag depends on the type of the browser. More often it is displayed with a border, which creates 3D effect.          -->
-<div class="quiz-stage">
-<div class="question" id="questionBox"></div>
-<div class="options">
+<div class="quiz-stage"> </div>                 <!-- DIVISION FOR Quiz qrapper -->
+<div class="question" id="questionBox"></div>    <!-- DIVISION FOR HOLDING QUESTIONS-->
+<div class="options">                             <!-- DIVISION FOR HOLDING OPTIONS/answers-->
 <ul id="ul">
 <li id="option1" onclick="button(this)"></li>
 <li id="option2" onclick="button(this)"></li>
 </ul>
 </div>
-<div class= "score">
+<!-- <div class= "score">                                         <!-- DIVISION FOR score and scoreboard-->
 <div class = "score-board"> Score</div><span id="scoreBoard">0</span></div>
-</div>
+</div>-->
  <div id= "quiz"></div>
 <button id="startGame"> Start the game!</button> 
 <button id ="restartGame"> Restart the game!</button>
 <button id="results">RESULTS!</button>
-<div class="next">
+<div class="next">                                            <!-- DIVISION to go to next  QUESTIONS-->
  <button id="bttounNext" type="button"onclick="next()"> Next</button>
  </div>
 
-    
     
     
  </body>

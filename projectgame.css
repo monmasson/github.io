@@ -66,6 +66,9 @@ body {
 #buttonNext{
   padding: 5px 10px;
 }
+#buttonNext.hover{
+  background-color: darksalmon;
+}
 
 
 

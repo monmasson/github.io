@@ -2,50 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:cursive
 }
 
 body {
   background-image: linear-gradient(10deg, grey 50%, yellow 50%);
-  height: 300px;
-  width: 300px;
-  margin-bottom: 80px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
-  h1 {
-    font-size: 36pt;
-    font-family: serif;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    line-height: normal;
-  };
-
-  h3{ position: center;
-  color: green;}
-
-h3.quiz-box{
-   height: 400px;
-    width: 600px;
+.quiz-box{
+    width: 800px;
+    max-width: 80%;
     background-color: white;
     margin: 30px auto;
     border-radius: 8px;
     padding:25px
 }
 
-h3.question{min-height: 50px;
-  background-color: teal;
-  border-radius: 8px;
-  color: white;
-  padding: 15px;
-  float: left;
-  width: 100%;
-  font-size: 25px;
+.options{
+  display: grid;
+  gap: 8px;
+  margin: 16px;
+  grid-template-columns: auto;
 }
 
-h3.options{float: left;
-  width: 100%;
-
+.btn{
+  background-color: aqua;
+  padding: auto;
+  text-decoration: aliceblue;
 }
+
+.btn:hover{
+  background-color:darksalmon;
+}
+
+
+.controls{
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+.start-game{
+  padding: 5px 10px;
+}
+.start-game:hover{
+  background-color: darksalmon;
+}
+
+.restart-game{
+  padding: 5px 10px
+}
+.restart-game:hover{
+  background-color: darksalmon;
+}
+
+#buttonNext{
+  padding: 5px 10px;
+}
+
+
 
 
 

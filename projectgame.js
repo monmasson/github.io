@@ -1,7 +1,7 @@
 const startButton = document.getElementById('startGame')
-const questionbox = document.getElementsById('question-box')
-const question= document.getElementById('questions')
-const answers = document.getElementById('answers')
+const questionboxElement = document.getElementsById('question-box')
+const questionElement= document.getElementById('questions')
+const answersElement = document.getElementById('answers')
 let shuffleQuestions = shuffleQuestions
 let currentQuestion= currentQuestion
 
@@ -15,19 +15,15 @@ function playGame(){
  // console.log('start')//
  shuffleQuestions=questions.sort(() => Math.random())
  currentQuestion=0
-
- 
- 
-  
 }
 
 function showQuestion(questions){}
+//need a loop for questions and answers.//
 
 
 function nextQuestion(){
   showQuestion(shuffleQuestions[currentQuestion])
 }
-
 //function selectAnswer(){}
 
 
@@ -39,4 +35,6 @@ const questions =[
             { text: '<js>', correct : false},
     ]
   }
+  //need more questions and answers//
 ]
+function test(){}

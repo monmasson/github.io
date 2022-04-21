@@ -70,5 +70,14 @@ body {
   background-color: darksalmon;
 }
 
+.hide{
+  display: none;
+}
 
+.submit-btn{
+  padding: 5px 10px;
+}
+.submit-btn:hover{
+  background-color: darksalmon;
+}
 

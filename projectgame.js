@@ -37,4 +37,4 @@ const questions =[
   }
   //need more questions and answers//
 ]
-function test(){}
+function test1(){}

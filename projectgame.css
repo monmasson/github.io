@@ -1,83 +1,74 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:cursive
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:cursive
 }
 
 body {
-  background-image: linear-gradient(10deg, grey 50%, yellow 50%);
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
+background-image: linear-gradient(10deg, grey 50%, yellow 50%);
+height: 100vh;
+width: 100vw;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
 }
 
 .quiz-box{
-    width: 800px;
-    max-width: 80%;
-    background-color: white;
-    margin: 30px auto;
-    border-radius: 8px;
-    padding:25px
+  width: 800px;
+  max-width: 80%;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 8px;
+  padding:25px
 }
 
 .options{
-  display: grid;
-  gap: 8px;
-  margin: 16px;
-  grid-template-columns: auto;
+display: grid;
+gap: 8px;
+margin: 16px;
+grid-template-columns: auto;
 }
 
 .btn{
-  background-color: aqua;
-  padding: auto;
-  text-decoration: aliceblue;
+background-color: aqua;
+padding: auto;
+text-decoration: aliceblue;
 
 }
 
 .btn:hover{
-  background-color:darksalmon;
+background-color:darksalmon;
 }
 
 
 .controls{
+align-self: center;
+align-items: center;
+align-content: center;
+}
+
+.js-logo {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+    
+  }
+.player-info{
+  float:right; 
+  overflow:hidden; 
+  padding-right:200px;
+}
+
+h2{
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: chartreuse;
+  color:red;
+}
+.start-btn{
   align-self: center;
-  align-items: center;
-  align-content: center;
 }
 
-.start-game{
-  padding: 5px 10px;
-}
-.start-game:hover{
-  background-color: darksalmon;
-}
-
-.restart-game{
-  padding: 5px 10px
-}
-.restart-game:hover{
-  background-color: darksalmon;
-}
-
-.next-button{
-  padding: 5px 10px;
-}
-.next-button:hover{
-  background-color: darksalmon;
-}
-
-.hide{
-  display: none;
-}
-
-.submit-btn{
-  padding: 5px 10px;
-}
-.submit-btn:hover{
-  background-color: darksalmon;
-}
-
+ 

@@ -25,6 +25,7 @@ v Technologies used:
 ·CSS
 
 Resources to be used : Eloquent Javascript, Khan Academy, Codesmith, pythontutor.com,developer.mozilla.org
+https://livebook.manning.com/book/get-programming-with-javascript
 
  
 
@@ -187,7 +188,15 @@ v unsolved problems
  
 
 v Challenges
+Following DRY - especially in the CSS code . 
+For example: I had a lot of Buttons on my code. I wanted all to look uniform so the styling was the same. Instead of compiling all the changes under one common '.btn', I had every single'btn' element listed out untill I followed DRY.
 
+Ran into a lot of error" addListner not working: reading null" on JS. Figured out following troubleshootings.
+1. Check the <script> tag positioning on HTML. Make sure it is either right after    at top or just above the ending </body> section at bottom.
+2. Try adding 'defer' at the end such as : <script src="projectgame.js" defer></script>  
+3. 3. If still having trouble then try putting addListner inside the appropriate function. Why???? There could be a lag between the JS and HTML file running so if we have an ampty function such as addListner 'click' startGame(), It might read it as null. 
+
+Check for spellings, case sensitivity, "" vs '', pairing of the bracets () [] {}, ; in CSS after each line.
  
 
  

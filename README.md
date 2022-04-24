@@ -25,6 +25,7 @@ v Technologies used:
 ·CSS
 
 Resources to be used : Eloquent Javascript, Khan Academy, Codesmith, pythontutor.com,developer.mozilla.org
+https://livebook.manning.com/book/get-programming-with-javascript
 
  
 
